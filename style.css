@@ -16,6 +16,8 @@ input, button {
     margin: 0px auto;
     margin-top: 150px;
     padding: 20px;
+    display: none;
+
 }
 
 
@@ -28,6 +30,9 @@ input, button {
     outline: none;
     width: 100%;
     margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
 }
 
 .main-div input:focus {
@@ -37,7 +42,7 @@ input, button {
 .main-div button, .loggedin-div button{
     background: #5d8ffc;
     color: #fff;
-    border: 0px;
+    border: 1px solid #5d8ffc;
     border-radius: 5px;
     padding: 15px;
     display: block;
